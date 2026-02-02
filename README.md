@@ -52,12 +52,6 @@ I maintain a high-availability personal environment for development and media au
 
 <p align="center"> <img src="https://streak-stats.demolab.com/?user=jacobdeanpugh&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" /> </p>
 ---
-
-### 🕹️ Outside the Terminal
-* **Sports Analytics:** Analyzing NFL player props and stats for **PrizePicks**.
-* **Gaming:** Immersing myself in psychological horror or surviving the cold in *Frostpunk*.
-* **Culinary Interests:** On a quest for the perfect **Wingstop** order (Current leader: Mango Habanero + Cajun).
-
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=jacobdeanpugh&color=blueviolet" alt="Profile Views" />
 </div>

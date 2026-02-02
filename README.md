@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00A1E0&height=200&section=header&text=Jacob%20Pugh&fontSize=90" />
   
   <p>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3776AB&center=true&vCenter=true&width=435&lines=CS+Student+@+CBU;Salesforce+Developer;Infrastructure+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3776AB&center=true&vCenter=true&width=435&lines=Data+Privacy+Advocate;CS+Student+@+CBU;Salesforce+Developer;Infrastructure+Enthusiast;" alt="Typing SVG" />
   </p>
 
   <p>

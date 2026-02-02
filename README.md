@@ -8,6 +8,19 @@
   </p>
 </div>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00A1E0&height=200&section=header&text=Jacob%20Pugh&fontSize=90" />
+  
+  <p>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3776AB&center=true&vCenter=true&width=435&lines=CS+Student+@+CBU;Salesforce+Developer;Infrastructure+Enthusiast" alt="Typing SVG" />
+  </p>
+
+  <p>
+    <a href="https://www.linkedin.com/in/jacobdeanpugh/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="mailto:jacob.pugh.riverside@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  </p>
+</div>
+
 ---
 
 ### 🚀 Featured Project: Decentralized Cloud Compute

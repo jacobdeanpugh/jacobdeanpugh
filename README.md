@@ -7,9 +7,8 @@ I am a Computer Science student at California Baptist University with a passion 
 ---
 
 ### 🚀 What I’m Working On
-- **Car Health Monitor:** Developing an OBD-II diagnostic system for my Junior Design project.
-- **Salesforce Integrations:** Building Python scripts to automate data loading (DINA project) and exploring Salesforce + Tableau integrations.
-- **Homelab:** Managing a personal media and virtualization stack using **Proxmox**, **Arch Linux**, and **Jellyfin**.
+- **Decenteralized Cloud Compute:** Developing a centralized management layer that aggregates and redistributes compute power from private micro-datacenters. Focuses on secure resource allocation and automated provider payouts.
+- **Homelab:** Managing a personal media and virtualization stack using **Proxmox**, **Debian**, and **Plex**.
 
 ### 🛠️ Tech Stack
 * **Languages:** Java, Python, Apex, Go, Rust, JavaScript/Dart
@@ -18,8 +17,8 @@ I am a Computer Science student at California Baptist University with a passion 
 * **DevOps & Tools:** Git, Docker, Proxmox, Debian/Arch Linux
 
 ### 📊 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight)
 
 ### 🕹️ Outside of Coding
 When I'm not in the terminal, you can find me:

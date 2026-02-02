@@ -48,9 +48,9 @@ I maintain a high-availability personal environment for development and media au
 
 ### 📊 GitHub Activity
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight&hide_border=true" alt="Jacob's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Jacob's Stats" />
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Langs" />
 </p>
 
 ---

@@ -1,30 +1,66 @@
-# Hi, I'm Jacob! 👋
+<div align="center">
+  <h1>Hi, I'm Jacob! 👋</h1>
+  <p><strong>Computer Science Student @ CBU | Salesforce Developer | Infrastructure Enthusiast</strong></p>
 
-### 👨‍💻 Computer Science Student | Salesforce Developer | Homelab Enthusiast
-
-I am a Computer Science student at California Baptist University with a passion for building scalable applications and exploring the intersection of software and hardware. Currently, I'm focusing on **Salesforce Development (Apex/LWC)** and **Full-Stack Engineering**.
-
----
-
-### 🚀 What I’m Working On
-- **Decenteralized Cloud Compute:** Developing a centralized management layer that aggregates and redistributes compute power from private micro-datacenters. Focuses on secure resource allocation and automated provider payouts.
-- **Homelab:** Managing a personal media and virtualization stack using **Proxmox**, **Debian**, and **Plex**.
-
-### 🛠️ Tech Stack
-* **Languages:** Java, Python, Apex, Go, Rust, JavaScript/Dart
-* **Web/Mobile:** Flutter, HTML/CSS, Lightning Web Components (LWC)
-* **Backend & Data:** MySQL, Firebase, ArXiv API
-* **DevOps & Tools:** Git, Docker, Proxmox, Debian/Arch Linux
-
-### 📊 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight)
-
-### 🕹️ Outside of Coding
-When I'm not in the terminal, you can find me:
-
+  <p>
+    <a href="https://www.linkedin.com/in/jacobdeanpugh/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  </p>
+</div>
 
 ---
 
-### 📫 How to reach me:
-- **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/jacobdeanpugh/)
+### 🚀 Featured Project: Decentralized Cloud Compute
+> **The Vision:** Turning idle home-lab hardware into a global, monetizable cloud. 
+> I am building a centralized **Orchestration Layer** that acts as the broker for distributed micro-datacenters, handling secure resource allocation, job scheduling, and automated provider payouts.
+
+---
+
+### 🛠️ Technical Arsenal
+
+<details open>
+<summary><b>Languages & Frameworks</b></summary>
+<br />
+<img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
+</details>
+
+<details>
+<summary><b>Infrastructure & Databases</b></summary>
+<br />
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" />
+</details>
+
+---
+
+### 🖥️ Homelab & Virtualization
+I maintain a high-availability personal environment for development and media automation:
+* **Virtualization:** Proxmox VE running specialized Debian containers.
+* **Media Stack:** Plex ecosystem with automated management.
+* **OS Preference:** Arch Linux for development, Debian for stability.
+
+### 📊 GitHub Activity
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight&hide_border=true" alt="Jacob's Stats" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+</p>
+
+---
+
+### 🕹️ Outside the Terminal
+* **Sports Analytics:** Analyzing NFL player props and stats for **PrizePicks**.
+* **Gaming:** Immersing myself in psychological horror or surviving the cold in *Frostpunk*.
+* **Culinary Interests:** On a quest for the perfect **Wingstop** order (Current leader: Mango Habanero + Cajun).
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=jacobdeanpugh&color=blueviolet" alt="Profile Views" />
+</div>

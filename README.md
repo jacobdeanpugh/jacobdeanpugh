@@ -47,12 +47,15 @@ I maintain a high-availability personal environment for development and media au
 * **OS Preference:** Arch Linux for development, Debian for stability.
 
 ### 📊 GitHub Activity
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Jacob's Stats" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jacobdeanpugh&theme=tokyonight&hide_border=true" width="100%" />
+</p>
 ---
 
 ### 🕹️ Outside the Terminal

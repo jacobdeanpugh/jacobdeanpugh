@@ -22,12 +22,9 @@ I am a Computer Science student at California Baptist University with a passion 
 
 ### 🕹️ Outside of Coding
 When I'm not in the terminal, you can find me:
-- Analyzing NFL stats for **PrizePicks** (Go Niners! 🏈).
-- Playing horror games or strategy titles like *Frostpunk*.
-- Experimenting with new **Wingstop** flavor combinations (Mango Habanero is the GOAT).
+
 
 ---
 
 ### 📫 How to reach me:
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- **Portfolio:** [Your Google Sites Link]
+- **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/jacobdeanpugh/)

@@ -45,11 +45,3 @@ I maintain a high-availability personal environment for development and media au
 * **Virtualization:** Proxmox VE running specialized Debian containers.
 * **Media Stack:** Plex ecosystem with automated management.
 * **OS Preference:** Arch Linux for development, Debian for stability.
-
-### 📊 GitHub Activity
-
-<p align="center"> <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="Jacob's Stats" /> <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Langs" /> </p>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=jacobdeanpugh&color=blueviolet" alt="Profile Views" />
-</div>

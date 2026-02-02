@@ -48,14 +48,9 @@ I maintain a high-availability personal environment for development and media au
 
 ### 📊 GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" />
-</p>
+<p align="center"> <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jacobdeanpugh&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="Jacob's Stats" /> <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jacobdeanpugh&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Langs" /> </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jacobdeanpugh&theme=tokyonight&hide_border=true" width="100%" />
-</p>
+<p align="center"> <img src="https://streak-stats.demolab.com/?user=jacobdeanpugh&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" /> </p>
 ---
 
 ### 🕹️ Outside the Terminal

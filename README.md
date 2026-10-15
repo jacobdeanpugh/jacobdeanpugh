@@ -37,7 +37,7 @@ spec:
     - unicore      # peer-to-peer compute marketplace, top contributor
   experience:
     - cbu-caimll   # Azure data pipelines, Salesforce (Apex + LWC)
-  os: [arch, debian]   # arch to build, debian to run
+  os: [arch, debian, rocky]   # arch to build, debian + rocky to run
   principles:
     - if it isn't in git, it doesn't exist
     - outbound-only networking, least privilege, encrypted secrets
@@ -123,6 +123,7 @@ A single-node Proxmox lab, defined end to end in code. OpenTofu builds the VMs, 
 **Infrastructure & automation**<br />
 <img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,ansible,githubactions,nginx,linux,debian,arch&theme=dark" alt="Kubernetes, Docker, Terraform, Ansible, GitHub Actions, NGINX, Linux, Debian, Arch" /><br />
 <img src="https://img.shields.io/badge/Proxmox-13203A?style=flat-square&logo=proxmox&logoColor=22D3EE" alt="Proxmox" />
+<img src="https://img.shields.io/badge/Rocky_Linux-13203A?style=flat-square&logo=rockylinux&logoColor=22D3EE" alt="Rocky Linux" />
 <img src="https://img.shields.io/badge/OpenTofu-13203A?style=flat-square&logo=opentofu&logoColor=22D3EE" alt="OpenTofu" />
 <img src="https://img.shields.io/badge/k3s-13203A?style=flat-square&logo=k3s&logoColor=22D3EE" alt="k3s" />
 <img src="https://img.shields.io/badge/Flux-13203A?style=flat-square&logo=flux&logoColor=22D3EE" alt="Flux" />

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Jacob Pugh</title>
+  <desc id="desc">Infrastructure, automation and distributed systems. A terminal window showing a k3s cluster on Proxmox, reconciled by Flux from git.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1324"/>
+      <stop offset="1" stop-color="#060A13"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1A2540"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1200" height="380" rx="16"/>
+    </clipPath>
+
+    <path id="e-git-flux" d="M 905 90 C 840 90, 785 105, 785 135"/>
+    <path id="e-git-ts" d="M 985 90 C 1050 90, 1105 105, 1105 135"/>
+    <path id="e-flux-srv" d="M 785 165 C 785 205, 880 205, 905 222"/>
+    <path id="e-ts-srv" d="M 1105 165 C 1105 205, 1020 205, 995 222"/>
+    <path id="e-srv-a1" d="M 925 258 C 905 280, 850 280, 840 299"/>
+    <path id="e-srv-a2" d="M 975 258 C 995 280, 1050 280, 1060 299"/>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+    .sans { font-family: Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif; }
+    .edge { fill: none; stroke: #22314F; stroke-width: 1.5; }
+    .flow { fill: none; stroke: #22D3EE; stroke-width: 1.5; stroke-opacity: 0.55; stroke-dasharray: 3 9; animation: flow 1.6s linear infinite; }
+    .node { fill: #0E1729; stroke: #26375A; stroke-width: 1.2; }
+    .node-hot { fill: #0E1A2E; stroke: #22D3EE; stroke-width: 1.4; }
+    .label { fill: #C9D5E8; font-size: 12px; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes flow { to { stroke-dashoffset: -24; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.35; transform: scale(0.7); } }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .flow, .pulse, .cursor { animation: none; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#dots)"/>
+    <ellipse cx="950" cy="215" rx="300" ry="190" fill="url(#glowCyan)"/>
+    <ellipse cx="260" cy="190" rx="320" ry="170" fill="url(#glowViolet)"/>
+
+    <!-- window chrome -->
+    <rect width="1200" height="40" fill="#0A111F"/>
+    <line x1="0" y1="40.5" x2="1200" y2="40.5" stroke="#1B2742"/>
+    <circle cx="24" cy="20" r="6" fill="#FF5F57" fill-opacity="0.85"/>
+    <circle cx="44" cy="20" r="6" fill="#FEBC2E" fill-opacity="0.85"/>
+    <circle cx="64" cy="20" r="6" fill="#28C840" fill-opacity="0.85"/>
+    <text x="600" y="25" text-anchor="middle" class="mono" font-size="12" fill="#5B6B88">jacob@homelab: ~/infra</text>
+
+    <!-- left: identity -->
+    <text x="56" y="104" class="mono" font-size="15"><tspan fill="#34D399">jacob@homelab</tspan><tspan fill="#22D3EE"> ~/infra</tspan><tspan fill="#A78BFA"> ❯ </tspan><tspan fill="#E6EDF7">whoami</tspan><tspan class="cursor" fill="#22D3EE"> ▋</tspan></text>
+    <text x="54" y="176" class="sans" font-size="64" font-weight="700" fill="#F1F5FB" letter-spacing="-1">Jacob Pugh</text>
+    <text x="56" y="214" class="sans" font-size="20" font-weight="500" fill="url(#accent)">Infrastructure · Automation · Distributed Systems</text>
+
+    <!-- status chips -->
+    <g class="mono" font-size="13">
+      <rect x="56" y="244" width="126" height="30" rx="15" fill="#0E1729" stroke="#1F3A3A"/>
+      <circle class="pulse" cx="76" cy="259" r="4.5" fill="#34D399"/>
+      <text x="90" y="263.5" fill="#C9D5E8">k3s <tspan fill="#34D399">Ready</tspan></text>
+
+      <rect x="194" y="244" width="178" height="30" rx="15" fill="#0E1729" stroke="#1F3A3A"/>
+      <circle class="pulse" cx="214" cy="259" r="4.5" fill="#34D399" style="animation-delay:.6s"/>
+      <text x="228" y="263.5" fill="#C9D5E8">flux <tspan fill="#34D399">Reconciled</tspan></text>
+
+      <rect x="384" y="244" width="134" height="30" rx="15" fill="#0E1729" stroke="#1F3A3A"/>
+      <circle class="pulse" cx="404" cy="259" r="4.5" fill="#34D399" style="animation-delay:1.2s"/>
+      <text x="418" y="263.5" fill="#C9D5E8">ci <tspan fill="#34D399">Passing</tspan></text>
+    </g>
+
+    <text x="56" y="330" class="mono" font-size="13" fill="#5B6B88"><tspan fill="#3B4A66"># </tspan>CS @ California Baptist University  ·  homelab · GitOps · cloud</text>
+
+    <!-- right: topology -->
+    <rect x="732" y="190" width="436" height="170" rx="14" fill="#0A1222" fill-opacity="0.6" stroke="#2A3A5C" stroke-dasharray="5 5"/>
+    <text x="950" y="350" text-anchor="middle" class="mono" font-size="11" fill="#5B6B88">proxmox-ve · pve-01</text>
+
+    <use href="#e-git-flux" xlink:href="#e-git-flux" class="edge"/>
+    <use href="#e-git-ts" xlink:href="#e-git-ts" class="edge"/>
+    <use href="#e-flux-srv" xlink:href="#e-flux-srv" class="edge"/>
+    <use href="#e-ts-srv" xlink:href="#e-ts-srv" class="edge"/>
+    <use href="#e-srv-a1" xlink:href="#e-srv-a1" class="edge"/>
+    <use href="#e-srv-a2" xlink:href="#e-srv-a2" class="edge"/>
+
+    <use href="#e-git-flux" xlink:href="#e-git-flux" class="flow"/>
+    <use href="#e-git-ts" xlink:href="#e-git-ts" class="flow"/>
+    <use href="#e-flux-srv" xlink:href="#e-flux-srv" class="flow"/>
+    <use href="#e-ts-srv" xlink:href="#e-ts-srv" class="flow" style="animation-direction:reverse"/>
+    <use href="#e-srv-a1" xlink:href="#e-srv-a1" class="flow"/>
+    <use href="#e-srv-a2" xlink:href="#e-srv-a2" class="flow"/>
+
+    <!-- packets -->
+    <circle r="3.5" fill="#22D3EE">
+      <animateMotion dur="2.8s" repeatCount="indefinite" rotate="auto"><mpath href="#e-git-flux" xlink:href="#e-git-flux"/></animateMotion>
+    </circle>
+    <circle r="3.5" fill="#22D3EE">
+      <animateMotion dur="2.8s" begin="1.4s" repeatCount="indefinite"><mpath href="#e-flux-srv" xlink:href="#e-flux-srv"/></animateMotion>
+    </circle>
+    <circle r="3.5" fill="#22D3EE">
+      <animateMotion dur="2.8s" begin="0.7s" repeatCount="indefinite"><mpath href="#e-git-ts" xlink:href="#e-git-ts"/></animateMotion>
+    </circle>
+    <circle r="3" fill="#A78BFA">
+      <animateMotion dur="3.4s" begin="0.4s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e-ts-srv" xlink:href="#e-ts-srv"/></animateMotion>
+    </circle>
+    <circle r="3" fill="#34D399">
+      <animateMotion dur="2.2s" begin="0.9s" repeatCount="indefinite"><mpath href="#e-srv-a1" xlink:href="#e-srv-a1"/></animateMotion>
+    </circle>
+    <circle r="3" fill="#34D399">
+      <animateMotion dur="2.2s" begin="1.9s" repeatCount="indefinite"><mpath href="#e-srv-a2" xlink:href="#e-srv-a2"/></animateMotion>
+    </circle>
+
+    <!-- nodes -->
+    <g class="mono">
+      <rect x="890" y="75" width="110" height="30" rx="8" class="node"/>
+      <circle cx="907" cy="90" r="4" fill="#A78BFA"/>
+      <text x="917" y="94" class="label">git:main</text>
+
+      <rect x="735" y="135" width="100" height="30" rx="8" class="node"/>
+      <circle class="pulse" cx="752" cy="150" r="4" fill="#34D399" style="animation-delay:.3s"/>
+      <text x="762" y="154" class="label">flux</text>
+
+      <rect x="1050" y="135" width="110" height="30" rx="8" class="node"/>
+      <circle class="pulse" cx="1067" cy="150" r="4" fill="#34D399" style="animation-delay:.9s"/>
+      <text x="1077" y="154" class="label">tailnet</text>
+
+      <rect x="875" y="222" width="150" height="36" rx="9" class="node-hot"/>
+      <circle class="pulse" cx="894" cy="240" r="4.5" fill="#22D3EE"/>
+      <text x="905" y="244" class="label" fill="#E6EDF7">k3s-server-01</text>
+
+      <rect x="770" y="299" width="140" height="32" rx="8" class="node"/>
+      <circle class="pulse" cx="788" cy="315" r="4" fill="#34D399" style="animation-delay:1.5s"/>
+      <text x="798" y="319" class="label">k3s-agent-01</text>
+
+      <rect x="990" y="299" width="140" height="32" rx="8" class="node"/>
+      <circle class="pulse" cx="1008" cy="315" r="4" fill="#34D399" style="animation-delay:2s"/>
+      <text x="1018" y="319" class="label">k3s-agent-02</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="16" fill="none" stroke="#1E2A44"/>
+</svg>

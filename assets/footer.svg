@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="44" viewBox="0 0 1200 44" role="img" aria-labelledby="title">
+  <title id="title">homelab session: k3s, flux, tofu, ansible. All systems nominal.</title>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; font-size: 13px; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.35; transform: scale(0.7); } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+  </style>
+  <clipPath id="frame"><rect width="1200" height="44" rx="10"/></clipPath>
+  <g clip-path="url(#frame)" class="mono">
+    <rect width="1200" height="44" fill="#0A111F"/>
+    <rect width="118" height="44" fill="#22D3EE"/>
+    <text x="59" y="27" text-anchor="middle" fill="#06202A" font-weight="700">homelab</text>
+    <text x="140" y="27" fill="#5B6B88"><tspan fill="#E6EDF7">0:k3s*</tspan><tspan dx="18">1:flux</tspan><tspan dx="18">2:tofu</tspan><tspan dx="18">3:ansible</tspan></text>
+    <circle class="pulse" cx="1016" cy="22" r="4.5" fill="#34D399"/>
+    <text x="1030" y="27" fill="#8B9BB4">all systems nominal</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="43" rx="10" fill="none" stroke="#1E2A44"/>
+</svg>
